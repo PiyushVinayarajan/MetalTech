@@ -125,6 +125,8 @@ export const ProjectsCard4 = [
 ];
 
 //Services page Constants Ends
+
+//AboutUs page Constants Starts
 export const ClientCards = [
     { src: 'images/Company-1.png', text: 'Extremly happy with the service', label: 'AMC Metals', path: 'https://news.sky.com/', tag: 'External' },
     { src: 'images/Company-2.png', text: 'Great prefessionals..', label: 'KFC Builders', path: 'https://news.sky.com/business', tag: 'External' },
@@ -138,3 +140,4 @@ export const CharityPartnerCards = [
     { src: 'images/Company-3.png', text: 'Metal Trade helped grow our new IT div..', label: 'Niche Tech', path: '', tag: '' },
     { src: 'images/Company-4.png', text: 'We at health.uk satisfied', label: 'Wine Mart', path: '', tag: '' },
 ];
+//AboutUs page Constants Ends
