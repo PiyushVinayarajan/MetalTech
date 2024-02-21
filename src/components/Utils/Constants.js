@@ -47,43 +47,50 @@ export const YouTubeSource = 'https://www.youtube.com/embed/FpjntXV3CkY?si=WGddl
 export const ProjectRow1Cards = [
     { src: 'images/Project-1.1.jpg', text: 'Cathedral street', label: 'Roofing & Cladding Services', path: '/projects', tag: 'Service-1' },
     { src: 'images/Project-2.1.jpg', text: 'Netherthird Primary', label: 'Roofing & Cladding Services', path: '/projects', tag: 'Service-2' },
-    { src: 'images/Project-3.jpg', text: 'Project 3, Cardiff', label: 'Drylining Services', path: '/projects', tag: 'Service-3' },
-    { src: 'images/Project-4.jpg', text: 'Project 4, Jeddah', label: 'Building Services', path: '/projects', tag: 'Service-4' },
+    { src: 'images/Project-3.1.jpg', text: 'Holland Park', label: 'Roofing & Cladding Services', path: '/projects', tag: 'Service-3' },
+    { src: 'images/Project-4.1.jpg', text: 'Waverly', label: 'Roofing & Cladding Services', path: '/projects', tag: 'Service-4' },
 ];
 
 export const ProjectRow2Cards = [
-    { src: 'images/Project-1.jpg', text: 'Project 1, Kuala Lumpur', label: 'Roofing & Cladding Services', path: '/projects', tag: 'Service-1' },
-    { src: 'images/Project-2.jpg', text: 'Project 2, Skövde', label: 'Drylining Services', path: '/projects', tag: 'Service-2' },
-    { src: 'images/Project-3.jpg', text: 'Project 3, Cardiff', label: 'Drylining Services', path: '/projects', tag: 'Service-3' },
-    { src: 'images/Project-4.jpg', text: 'Project 4, Jeddah', label: 'Building Services', path: '/projects', tag: 'Service-4' },
+    { src: 'images/Project-5.1.jpg', text: 'Stirling Student Accommodation', label: 'Roofing & Cladding Services', path: '/projects', tag: 'Service-5' },
+    { src: 'images/coming-soon.jpg', text: 'Drylining', label: 'Drylining Services', path: '/projects', tag: 'Service-2' },
+    { src: 'images/coming-soon.jpg', text: 'SFS', label: 'SFS Services', path: '/projects', tag: 'Service-3' },
+    { src: 'images/coming-soon.jpg', text: 'Building Services', label: 'Building Services', path: '/projects', tag: 'Service-4' },
 ];
 
 export const Project1CarouselImages = [
-    { uri: 'images/Project-1.1.jpg', key: 'Cathedral street', path: '/projects?tag=Project-1.1', tag: 'Project-1.1', subtext1:'Main Contractor : Kier', subtext2:'Sub-contract Value : $ 2 Million', subtext3:'Scope of works : It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
-    { uri: 'images/Project-1.2.jpg', key: 'Cathedral street', path: '/projects?tag=Project-1.2', tag: 'Project-1.2' },
-    { uri: 'images/Project-1.3.jpg', key: 'Cathedral street', path: '/projects?tag=Project-1.3', tag: 'Project-1.3' },
+    { uri: 'images/Project-1.1.jpg', key: 'Cathedral street', subtext1:'Main Contractor : Kier', subtext2:'Sub-contract Value : £ 2 Million', subtext3:'Scope of works : It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
+    { uri: 'images/Project-1.2.jpg', key: 'Cathedral street'},
+    { uri: 'images/Project-1.3.jpg', key: 'Cathedral street'},
 ];
 
 export const Project2CarouselImages = [
-    { uri: 'images/Project-2.1.jpg', key: 'Netherthird Primary', path: '/projects?tag=Project-2.1', tag: 'Project-2.1', subtext1:'Main Contractor : Kier', subtext2:'Sub-contract Value : $ 2 Million', subtext3:'Scope of works : It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
-    { uri: 'images/Project-2.2.jpg', key: 'Netherthird Primary', path: '/projects?tag=Project-2.2', tag: 'Project-2.2' },
-    { uri: 'images/Project-2.3.jpg', key: 'Netherthird Primary', path: '/projects?tag=Project-2.3', tag: 'Project-2.3' },
-    { uri: 'images/Project-2.4.jpg', key: 'Netherthird Primary', path: '/projects?tag=Project-2.4', tag: 'Project-2.4' },
-    { uri: 'images/Project-2.5.jpg', key: 'Netherthird Primary', path: '/projects?tag=Project-2.5', tag: 'Project-2.5' },
-];
+    { uri: 'images/Project-2.1.jpg', key: 'Netherthird Primary', subtext1:'Main Contractor : Balfour Beatty', subtext2:'Sub-contract Value : £ 2 Million', subtext3:'Scope of works : It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
+    { uri: 'images/Project-2.2.jpg', key: 'Netherthird Primary'},
+    { uri: 'images/Project-2.3.jpg', key: 'Netherthird Primary'},
+    { uri: 'images/Project-2.4.jpg', key: 'Netherthird Primary'},
+    { uri: 'images/Project-2.5.jpg', key: 'Netherthird Primary'},
+]; 
 
 export const Project3CarouselImages = [
-    { uri: 'images/Project-1.jpg', key: 'Project 1, Kuala Lumpur', path: '/projects?tag=Project-1', tag: 'Project-1' , subtext1:'Main Contractor : Kier', subtext2:'Sub-contract Value : $ 2 Million', subtext3:'Scope of works : It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
-    { uri: 'images/Project-2.jpg', key: 'Project 2, Skövde', path: '/projects?tag=Project-2', tag: 'Project-2' },
-    { uri: 'images/Project-3.jpg', key: 'Project 3, Cardiff', path: '/projects?tag=Project-3', tag: 'Project-3' },
-    { uri: 'images/Project-4.jpg', key: 'Project 4, Jeddah', path: '/projects?tag=Project-4', tag: 'Project-4' },
+    { uri: 'images/Project-3.1.jpg', key: 'Holland Park', subtext1:'Main Contractor : Robertsons', subtext2:'Sub-contract Value : £ 4 Million', subtext3:'Scope of works : It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
+    { uri: 'images/Project-3.2.jpg', key: 'Holland Park'},
+    { uri: 'images/Project-3.3.jpg', key: 'Holland Park'},
+    { uri: 'images/Project-3.4.jpg', key: 'Holland Park'},
 ];
 
 export const Project4CarouselImages = [
-    { uri: 'images/Project-1.jpg', key: 'Project 1, Kuala Lumpur', path: '/projects?tag=Project-1', tag: 'Project-1', subtext1:'Main Contractor : Kier', subtext2:'Sub-contract Value : $ 2 Million', subtext3:'Scope of works : It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
-    { uri: 'images/Project-2.jpg', key: 'Project 2, Skövde', path: '/projects?tag=Project-2', tag: 'Project-2' },
-    { uri: 'images/Project-3.jpg', key: 'Project 3, Cardiff', path: '/projects?tag=Project-3', tag: 'Project-3' },
-    { uri: 'images/Project-4.jpg', key: 'Project 4, Jeddah', path: '/projects?tag=Project-4', tag: 'Project-4' },
+    { uri: 'images/Project-4.1.jpg', key: 'Waverly', subtext1:'Main Contractor : Kier', subtext2:'Sub-contract Value : £ 2 Million', subtext3:'Scope of works : It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
+    { uri: 'images/Project-4.2.jpg', key: 'Waverly'},
+    { uri: 'images/Project-4.3.jpg', key: 'Waverly'},
+    { uri: 'images/Project-4.4.jpg', key: 'Waverly'},
+];
+
+export const Project5CarouselImages = [
+    { uri: 'images/Project-5.1.jpg', key: 'Stirling Student Accommodation', subtext1:'Main Contractor : Kier', subtext2:'Sub-contract Value : £ 2 Million', subtext3:'Scope of works : It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.' },
+    { uri: 'images/Project-5.2.jpg', key: 'Stirling Student Accommodation'},
+    { uri: 'images/Project-5.3.jpg', key: 'Stirling Student Accommodation'},
+    { uri: 'images/Project-5.4.jpg', key: 'Stirling Student Accommodation'},
 ];
 
 //Projects page Constants Ends
@@ -99,29 +106,29 @@ export const ServicesCard = [
 export const ProjectsCard1 = [
     { src: 'images/Project-1.1.jpg', text: 'Cathedral street', label: 'Roofing & Cladding Services', path: '/projects?tag=Project-1', tag: 'Project-1' },
     { src: 'images/Project-2.1.jpg', text: 'Netherthird Primary', label: 'Roofing & Cladding Services', path: '/projects?tag=Project-2', tag: 'Project-2' },
-    { src: 'images/Project-3.jpg', text: 'Project 3, Cardiff', label: 'Roofing & Cladding Services', path: '/projects?tag=Project-3', tag: 'Project-3' },
-    { src: 'images/Project-4.jpg', text: 'Project 4, Jeddah', label: 'Roofing & Cladding Services', path: '/projects?tag=Project-4', tag: 'Project-4' },
+    { src: 'images/Project-3.1.jpg', text: 'Holland Park', label: 'Roofing & Cladding Services', path: '/projects?tag=Project-3', tag: 'Project-3' },
+    { src: 'images/Project-4.1.jpg', text: 'Waverly', label: 'Roofing & Cladding Services', path: '/projects?tag=Project-4', tag: 'Project-4' },
 ];
 
 export const ProjectsCard2 = [
-    { src: 'images/Project-1.1.jpg', text: 'Cathedral street', label: 'Drylining Services', path: '/projects?tag=Project-1', tag: 'Project-1' },
-    { src: 'images/Project-2.1.jpg', text: 'Netherthird Primary', label: 'Drylining Services', path: '/projects?tag=Project-2', tag: 'Project-2' },
-    { src: 'images/Project-3.jpg', text: 'Project 3, Cardiff', label: 'Drylining Services', path: '/projects?tag=Project-3', tag: 'Project-3' },
-    { src: 'images/Project-4.jpg', text: 'Project 4, Jeddah', label: 'Drylining Services', path: '/projects?tag=Project-4', tag: 'Project-4' },
+    { src: 'images/Coming-soon.jpg', text: 'Drylining Project-1', label: 'Drylining Services', path: '/services', tag: '' },
+    { src: 'images/Coming-soon.jpg', text: 'Drylining Project-2', label: 'Drylining Services', path: '/services', tag: '' },
+    { src: 'images/Coming-soon.jpg', text: 'Drylining Project-3', label: 'Drylining Services', path: '/services', tag: '' },
+    { src: 'images/Coming-soon.jpg', text: 'Drylining Project-4', label: 'Drylining Services', path: '/services', tag: '' },
 ];
 
 export const ProjectsCard3 = [
-    { src: 'images/Project-1.1.jpg', text: 'Cathedral street', label: 'Building Services', path: '/projects?tag=Project-1', tag: 'Project-1' },
-    { src: 'images/Project-2.1.jpg', text: 'Netherthird Primary', label: 'Building Services', path: '/projects?tag=Project-2', tag: 'Project-2' },
-    { src: 'images/Project-3.jpg', text: 'Project 3, Cardiff', label: 'Building Services', path: '/projects?tag=Project-3', tag: 'Project-3' },
-    { src: 'images/Project-4.jpg', text: 'Project 4, Jeddah', label: 'Building Services', path: '/projects?tag=Project-4', tag: 'Project-4' },
+    { src: 'images/Coming-soon.jpg', text: 'Building Service-1', label: 'Building Services', path: '/services', tag: '' },
+    { src: 'images/Coming-soon.jpg', text: 'Building Service-2', label: 'Building Services', path: '/services', tag: '' },
+    { src: 'images/Coming-soon.jpg', text: 'Building Service-3', label: 'Building Services', path: '/services', tag: '' },
+    { src: 'images/Coming-soon.jpg', text: 'Building Service-4', label: 'Building Services', path: '/services', tag: '' },
 ];
 
 export const ProjectsCard4 = [
-    { src: 'images/Project-1.1.jpg', text: 'Cathedral street', label: 'SFS Services', path: '/projects?tag=Project-1', tag: 'Project-1' },
-    { src: 'images/Project-2.1.jpg', text: 'Netherthird Primary', label: 'SFS Services', path: '/projects?tag=Project-2', tag: 'Project-2' },
-    { src: 'images/Project-3.jpg', text: 'Project 3, Cardiff', label: 'SFS Services', path: '/projects?tag=Project-3', tag: 'Project-3' },
-    { src: 'images/Project-4.jpg', text: 'Project 4, Jeddah', label: 'SFS Services', path: '/projects?tag=Project-4', tag: 'Project-4' },
+    { src: 'images/Coming-soon.jpg', text: 'SFS Service-1', label: 'SFS Services', path: '/services', tag: '' },
+    { src: 'images/Coming-soon.jpg', text: 'SFS Service-2', label: 'SFS Services', path: '/services', tag: '' },
+    { src: 'images/Coming-soon.jpg', text: 'SFS Service-3', label: 'SFS Services', path: '/services', tag: '' },
+    { src: 'images/Coming-soon.jpg', text: 'SFS Service-4', label: 'SFS Services', path: '/services', tag: '' },
 ];
 
 //Services page Constants Ends

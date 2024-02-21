@@ -132,6 +132,28 @@ export default function Projects() {
           </p><br />
         </h3>
         <br></br>
+        <br id="Project-5"></br>
+        <h1 data-aos="fade-left" id="Service-5"><u>{Constants.Project5CarouselImages.at(0).key}</u></h1>
+        <br></br><div data-aos="zoom-in">
+        <SmallSlider
+          infiniteLoop={true}
+          autoPlay={true}
+          useKeyboardArrows={true}
+          showStatus={false}
+          showThumbs={true}
+          showIndicators={true}
+          images={Constants.Project5CarouselImages}
+        /></div>
+        <br></br>
+        <h3><p data-aos="fade-left" className='projectdialouge'>
+        {Constants.Project5CarouselImages.at(0).subtext1}
+          <br></br>
+          {Constants.Project5CarouselImages.at(0).subtext2}
+          <br></br>
+          {Constants.Project5CarouselImages.at(0).subtext3}
+          </p><br />
+        </h3>
+        <br></br>
       </div>
     </div>
   );
