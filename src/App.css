@@ -14,6 +14,8 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .services {
@@ -201,8 +203,60 @@ video {
     text-decoration: none;
   }
 
-  .btn {
-    width: 100%;
+  .navbar {
+    display: none;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  .home-container {
+    /* height: auto; */
+    width: auto;
+    justify-content: center; 
+    box-shadow:none;
+  }
+
+  video {
+    width: fit-content;
+    height: fit-content;
+  } 
+  
+  .dialouge {
+    text-align: justify;
+    padding: 10px;
+    font-size: small;
+  }
+
+  h1 {
+    text-align: justify;
+    font-size: large;
+  }
+
+  h2{
+    font-size: medium;
+  }
+
+  h3{
+    font-size: smaller;
+  }
+
+  .aboutcontactLayout {
+    padding-left: 10px; 
+    padding-right: 10px;
+  }
+
+  .aboutusStatement{
+    font-size: smaller;
+  }
+
+  img{
+    max-width: -webkit-fill-available;
+  }
+
+  .Linkedin{
+    display: flex;
   }
 }
 
@@ -335,6 +389,8 @@ video {
 /* Main styles */
 body {
   /* margin-top: 13.5rem; */
+  max-width: 100%;
+  overflow-x: hidden;
   color: #615c78;
   font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
   text-align: center;

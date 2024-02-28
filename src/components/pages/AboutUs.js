@@ -28,7 +28,7 @@ export default function ContactUs() {
     <div data-aos="zoom-in">
       <img src='/images/History&Vision.png'/>
     </div>
-    <div data-aos="fade-right">
+    <div data-aos="fade-right" className='Linkedin'>
       {/* <iframe width="911" height="315" src= {Constants.YouTubeSource} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen/>   */}
       <iframe src= {Constants.LinkedInPage} frameborder='0' width="911" height="315"></iframe>
     </div>

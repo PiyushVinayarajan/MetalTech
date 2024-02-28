@@ -9,5 +9,5 @@ export default function Scroll() {
     }, [pathname]);
 
     return(
-        <ScrollToTop smooth color={'cornflowerblue'} style={{'bottom': '90px','background-color': 'black'}}/>)
+        <ScrollToTop smooth color={'cornflowerblue'} style={{'bottom': '100px','background-color': 'black','margin-right': '25px'}}/>)
 }

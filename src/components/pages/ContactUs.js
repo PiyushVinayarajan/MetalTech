@@ -23,7 +23,7 @@ export default function AboutUs() {
     <br></br>
     <h1 data-aos="fade-left" className='vision'>Want to Join us?</h1>
     <br></br>
-    <div data-aos="fade-right">
+    <div data-aos="fade-right" className='Linkedin'>
     <iframe src={Constants.LinkedInJob} frameborder='0' width="911" height="315" allowfullscreen="" ></iframe>
     </div>
     <br></br>

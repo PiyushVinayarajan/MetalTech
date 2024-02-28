@@ -77,6 +77,37 @@ function Navbar() {
           </ul>
         </div>
       </nav>
+      <nav className='mobile-navbar'>
+      <Link to='/' className='nav-links'>
+              <img width="50" height="50" src="https://img.icons8.com/doodle/50/building--v1.png" alt="building--v1"/>
+              </Link>
+        <div className='navbar-container'>
+              <Link
+                to='/services'
+                className='nav-links'
+              >
+              <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/20/service--v1.png" alt="service--v1"/>
+              </Link>
+              <Link
+                to='/projects'
+                className='nav-links'
+              >
+                <img width="20" height="20" src="https://img.icons8.com/ios-filled/20/flipboard.png" alt="flipboard"/>
+              </Link>
+              <Link
+                to='/aboutus'
+                className='nav-links'
+              >
+                <img width="20" height="20" src="https://img.icons8.com/ios-filled/20/about.png" alt="about"/>
+              </Link>
+              <Link
+                to='/contactus'
+                className='nav-links'
+              >
+                <img width="20" height="20" src="https://img.icons8.com/ios-filled/20/contact-card.png" alt="contact-card"/>
+              </Link>
+        </div>
+      </nav>
     </>
   );
 }
